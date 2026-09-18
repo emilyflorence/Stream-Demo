@@ -1,1 +1,417 @@
-PLACEHOLDER
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="StreamUp — Every match, one membership. 321+ live sports channels, PPV nights and full replays in 4K. No blackouts, no cable." />
+<title>StreamUp — Every match. One membership.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" type="image/png" href="https://brandgrowth.to/logo.png" />
+<script type='text/javascript' src='https://mammouth.ai/whrB8CkYEc7DJa40HkLhUhvhgn6NRyxTZLvnabzS9MS6t_Gme_JtS2J39u1uZZYwjGKK4ImPEciVkMl7Nt2m9z6EgLc_nELpr1N8kezaaG8iRAhPM__i7sRkHZJElBJWLMSSR5AXljOCk9dAEcwS_NXIq-hifRIbOrzCeu-bqaD8x1IMlpW3S1aYDpcgvLGAE5H3UXqnkd6FydlWpzR6Vu3Sie--lirICYBOG0evV9S6v3FPTApyGk-nJ5OHMGO-dKixjFa3bGE7oMXrmXL8RZfpmKOvSTAXCDwhaQm3RTTw6NeoKxWn40u4ybmnK3IncShJMVbpEO0fBhtbJtgkAbvLqQ6rmT_Wd88-nItgHFIM1c0Lc03VmrdFsUJ4shyhp0P-pjElUvNPP6LXiOGn37c6M9a_OSCTmyTSdHSIaKWXTlkzVSZlkLrcLGPxHBO_pPVzKbmQ-o9kofuWJ1BKDne8AOrIhY2-dlVuvirIuDBXoDHmTbeLCFLsmcXeCrxyvfV7ghB2njQ'></script></head>
+<body>
+
+<!-- Channel ticker -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span>NFL Network</span><span class="dot">•</span>
+    <span>Sky Sports Football</span><span class="dot">•</span>
+    <span>UFC Fight Pass</span><span class="dot">•</span>
+    <span>ESPN</span><span class="dot">•</span>
+    <span>Boxing TV</span><span class="dot">•</span>
+    <span>SuperSport Rugby</span><span class="dot">•</span>
+    <span>FOX Sports 502</span><span class="dot">•</span>
+    <span>NHL Network</span><span class="dot">•</span>
+    <span>MLB Network</span><span class="dot">•</span>
+    <span>Sky Sports F1</span><span class="dot">•</span>
+    <span>FOX Sports 504</span><span class="dot">•</span>
+    <span>Sky Sports Main Event</span><span class="dot">•</span>
+    <span>Sky Sports Golf</span><span class="dot">•</span>
+    <!-- duplicate for seamless loop -->
+    <span>NFL Network</span><span class="dot">•</span>
+    <span>Sky Sports Football</span><span class="dot">•</span>
+    <span>UFC Fight Pass</span><span class="dot">•</span>
+    <span>ESPN</span><span class="dot">•</span>
+    <span>Boxing TV</span><span class="dot">•</span>
+    <span>SuperSport Rugby</span><span class="dot">•</span>
+    <span>FOX Sports 502</span><span class="dot">•</span>
+    <span>NHL Network</span><span class="dot">•</span>
+    <span>MLB Network</span><span class="dot">•</span>
+    <span>Sky Sports F1</span><span class="dot">•</span>
+    <span>FOX Sports 504</span><span class="dot">•</span>
+    <span>Sky Sports Main Event</span><span class="dot">•</span>
+    <span>Sky Sports Golf</span><span class="dot">•</span>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container header__inner">
+    <a href="#" class="logo" aria-label="StreamUp home">
+      <img src="https://brandgrowth.to/logo.png" alt="StreamUp" />
+      <span>StreamUp</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#matches">Live</a>
+      <a href="#leagues">Leagues</a>
+      <a href="#why">Why StreamUp</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="header__actions">
+      <a href="#" class="btn btn--ghost">Log in</a>
+      <a href="#join" class="btn btn--accent">Get the pass</a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="join">
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <div class="hero__live">
+        <span class="pulse"></span>
+        <span class="hero__live-label">Live now</span>
+        <span class="hero__live-meta">GOLF vs Biltmore Championship — Asheville</span>
+      </div>
+      <h1 class="hero__title">
+        <span class="line">Every match.</span>
+        <span class="line line--accent">One membership.</span>
+      </h1>
+      <p class="hero__lede">
+        321+ live sports channels, PPV nights and full replays in 4K — streamed from a single paid StreamUp pass. No blackouts, no cable, no waiting.
+      </p>
+
+      <!-- 4-step form -->
+      <form class="form" id="signupForm" novalidate>
+        <ol class="steps" aria-label="Checkout progress">
+          <li class="step is-active"><span class="step__num">1</span>Account</li>
+          <li class="step"><span class="step__num">2</span>Package</li>
+          <li class="step"><span class="step__num">3</span>Checkout</li>
+          <li class="step"><span class="step__num">4</span>Watch</li>
+        </ol>
+        <h2 class="form__title">Create your account</h2>
+        <p class="form__hint">Membership required — pick a pass on the next step.</p>
+
+        <label class="field">
+          <span>Full name</span>
+          <input type="text" name="name" placeholder="Jane Doe" required />
+        </label>
+        <label class="field">
+          <span>Email</span>
+          <input type="email" name="email" placeholder="you@domain.com" required />
+        </label>
+        <label class="field">
+          <span>Password</span>
+          <input type="password" name="password" placeholder="At least 8 characters" minlength="8" required />
+        </label>
+
+        <button type="submit" class="btn btn--accent btn--block">Continue to packages →</button>
+
+        <ul class="trust">
+          <li><span class="trust__icon" aria-hidden="true">🔒</span> SSL secure</li>
+          <li><span class="trust__icon" aria-hidden="true">⚡</span> Instant access</li>
+          <li><span class="trust__icon" aria-hidden="true">↩︎</span> Cancel anytime</li>
+        </ul>
+
+        <p class="form__login">Already a member? <a href="#">Log in here</a></p>
+      </form>
+    </div>
+
+    <!-- Live broadcast frame -->
+    <aside class="hero__player" aria-label="Now playing">
+      <div class="player">
+        <div class="player__chrome">
+          <span class="player__dot"></span>
+          <span class="player__dot"></span>
+          <span class="player__dot"></span>
+          <span class="player__channel">GOLF · CH-318</span>
+        </div>
+        <div class="player__screen">
+          <div class="player__badge">
+            <span class="pulse"></span> ON AIR
+          </div>
+          <div class="player__meta">
+            <span class="player__league">GOLF</span>
+            <h3 class="player__title">Biltmore Championship — Asheville</h3>
+            <p class="player__sub">Round 2 · Final group · 4K stream</p>
+          </div>
+          <div class="player__hud">
+            <span>4K • 60fps</span>
+            <span>Adaptive bitrate</span>
+            <span>Zero blackouts</span>
+          </div>
+        </div>
+        <div class="player__footer">
+          <span>StreamUp Pass · 321+ channels</span>
+          <span class="player__cta">▶  Watch live</span>
+        </div>
+      </div>
+      <div class="player__shadow"></div>
+    </aside>
+  </div>
+</section>
+
+<!-- Live & upcoming -->
+<section class="section" id="matches">
+  <div class="container">
+    <header class="section__head">
+      <p class="kicker">Live &amp; upcoming</p>
+      <h2 class="section__title">Upcoming schedules</h2>
+      <p class="section__sub">Every fixture below streams the moment it starts — included with an active pass.</p>
+    </header>
+
+    <ul class="matches" role="list">
+      <li class="match">
+        <div class="match__top">
+          <span class="tag tag--live"><span class="pulse"></span> Live</span>
+          <span class="match__sport">GOLF</span>
+        </div>
+        <div class="match__teams">
+          <div class="team">
+            <img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1780514044028_logo.png" alt="GOLF logo" loading="lazy" />
+            <span>GOLF</span>
+          </div>
+          <span class="vs">VS</span>
+          <div class="team team--right">
+            <span>Biltmore Championship Asheville</span>
+            <img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1789646723246_logo.avif" alt="Biltmore Championship Asheville logo" loading="lazy" />
+          </div>
+        </div>
+        <div class="match__foot">
+          <span class="match__channel">GOLF Channel USA · CH-318</span>
+          <a href="#" class="btn btn--mini">Watch →</a>
+        </div>
+      </li>
+
+      <li class="match">
+        <div class="match__top">
+          <span class="tag tag--live"><span class="pulse"></span> Live</span>
+          <span class="match__sport">SOCCER</span>
+        </div>
+        <div class="match__teams">
+          <div class="team">
+            <img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1734263578560_logo.png" alt="Chelsea logo" loading="lazy" />
+            <span>Chelsea</span>
+          </div>
+          <span class="vs">VS</span>
+          <div class="team team--right">
+            <span>Brentford</span>
+            <img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1734263552080_logo.png" alt="Brentford logo" loading="lazy" />
+          </div>
+        </div>
+        <div class="match__foot">
+          <span class="match__channel">USA Network · CH-343</span>
+          <a href="#" class="btn btn--mini">Watch →</a>
+        </div>
+      </li>
+
+      <li class="match">
+        <div class="match__top">
+          <span class="tag tag--live"><span class="pulse"></span> Live</span>
+          <span class="match__sport">SOCCER</span>
+        </div>
+        <div class="match__teams">
+          <div class="team">
+            <img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1733392581952_logo.png" alt="Bayern Munich logo" loading="lazy" />
+            <span>Bayern Munich</span>
+          </div>
+          <span class="vs">VS</span>
+          <div class="team team--right">
+            <span>1. FC Union Berlin</span>
+            <img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1734179871168_logo.png" alt="Union Berlin logo" loading="lazy" />
+          </div>
+        </div>
+        <div class="match__foot">
+          <span class="match__channel">Sky Sport Top Event DE · CH-556</span>
+          <a href="#" class="btn btn--mini">Watch →</a>
+        </div>
+      </li>
+
+      <li class="match match--soon">
+        <div class="match__top">
+          <span class="tag">Tonight · 21:00</span>
+          <span class="match__sport">UFC</span>
+        </div>
+        <div class="match__teams">
+          <div class="team">
+            <img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1737224241767_logo.png" alt="UFC logo" loading="lazy" />
+            <span>UFC Fight Night</span>
+          </div>
+          <span class="vs">VS</span>
+          <div class="team team--right">
+            <span>Main Card</span>
+            <img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1737224241767_logo.png" alt="UFC logo" loading="lazy" />
+          </div>
+        </div>
+        <div class="match__foot">
+          <span class="match__channel">UFC Fight Pass · CH-204</span>
+          <a href="#" class="btn btn--mini">Set reminder →</a>
+        </div>
+      </li>
+    </ul>
+
+    <div class="section__cta">
+      <a href="#" class="btn btn--ghost btn--lg">See full schedule →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Leagues -->
+<section class="section section--alt" id="leagues">
+  <div class="container">
+    <header class="section__head">
+      <p class="kicker">Leagues</p>
+      <h2 class="section__title">14 leagues, one pass</h2>
+      <p class="section__sub">From NFL Sundays to Friday-night fights — the full catalogue is unlocked the second you subscribe.</p>
+    </header>
+
+    <div class="leagues">
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1785609419869_logo.png" alt="NFL logo" loading="lazy" /><div><strong>NFL</strong><span>NFL Network</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1737581440107_logo.png" alt="Soccer logo" loading="lazy" /><div><strong>SOCCER</strong><span>Sky Sports Football</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1737224241767_logo.png" alt="UFC logo" loading="lazy" /><div><strong>UFC/MMA</strong><span>UFC Fight Pass</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1787810950287_logo.webp" alt="NCAAF logo" loading="lazy" /><div><strong>NCAAF</strong><span>ESPN</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1736889519186_logo.png" alt="Boxing logo" loading="lazy" /><div><strong>BOXING</strong><span>Boxing TV</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1713432738506_logo.png" alt="Rugby logo" loading="lazy" /><div><strong>RUGBY</strong><span>SuperSport Rugby</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1769714068998_logo.png" alt="Rugby League logo" loading="lazy" /><div><strong>RUGBY LEAGUE</strong><span>FOX Sports 502</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1732701133154_logo.png" alt="NHL logo" loading="lazy" /><div><strong>NHL</strong><span>NHL Network</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1738769860185_logo.png" alt="MLB logo" loading="lazy" /><div><strong>MLB</strong><span>MLB Network</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1713434542552_logo.png" alt="Racing logo" loading="lazy" /><div><strong>RACING</strong><span>Sky Sports F1</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1771440728648_logo.png" alt="AFL logo" loading="lazy" /><div><strong>AFL</strong><span>FOX Sports 504</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1714112912238_logo.png" alt="Netball logo" loading="lazy" /><div><strong>NETBALL</strong><span>Sky Sports Main Event</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1731662689299_logo.png" alt="Events logo" loading="lazy" /><div><strong>EVENTS</strong><span>ESPN</span></div></a>
+      <a href="#" class="league"><img src="https://pub-4d25acc99dc047ddab7efe47a338e8ee.r2.dev/logos/1713434832805_logo.png" alt="Golf logo" loading="lazy" /><div><strong>GOLF</strong><span>Sky Sports Golf</span></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- Why members pay -->
+<section class="section" id="why">
+  <div class="container">
+    <header class="section__head">
+      <p class="kicker">Why members pay</p>
+      <h2 class="section__title section__title--xl">Built for people who hate missing the first whistle.</h2>
+      <p class="section__sub section__sub--lg">One paid membership replaces a stack of channel subscriptions and pay-per-view invoices.</p>
+    </header>
+
+    <ul class="stats" role="list">
+      <li><span class="stats__num" data-count="207">0</span><span class="stats__plus">+</span><span class="stats__lbl">Live TV channels</span></li>
+      <li><span class="stats__num" data-count="19">0</span><span class="stats__plus">k+</span><span class="stats__lbl">On-demand titles</span></li>
+      <li><span class="stats__num" data-count="14">0</span><span class="stats__plus"></span><span class="stats__lbl">Leagues covered</span></li>
+      <li><span class="stats__num" data-count="24">0</span><span class="stats__slash">/</span><span class="stats__num2">7</span><span class="stats__lbl">Human support</span></li>
+    </ul>
+
+    <div class="features">
+      <article class="feature">
+        <div class="feature__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 9h10M7 13h6"/></svg>
+        </div>
+        <h3>4K where available</h3>
+        <p>Broadcast-grade streams with adaptive bitrate on every connection.</p>
+      </article>
+      <article class="feature">
+        <div class="feature__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+        </div>
+        <h3>No geo-blackouts</h3>
+        <p>Watch the fixture you paid for, wherever you happen to be.</p>
+      </article>
+      <article class="feature">
+        <div class="feature__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <h3>7-day money-back guarantee</h3>
+        <p>Get a full refund within 7 days—no questions asked.</p>
+      </article>
+      <article class="feature">
+        <div class="feature__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.4 8.4 0 0 1-3.7 7L12 21l-5.3-2.5A8.4 8.4 0 0 1 3 11.5V6l9-3 9 3v5.5z"/></svg>
+        </div>
+        <h3>24/7 support</h3>
+        <p>Real people on chat during every major event window.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section--alt" id="faq">
+  <div class="container container--narrow">
+    <header class="section__head">
+      <p class="kicker">FAQ</p>
+      <h2 class="section__title">Before you subscribe</h2>
+    </header>
+
+    <div class="faqs">
+      <details class="faq" open>
+        <summary>
+          <span>Is StreamUp a paid service?</span>
+          <span class="faq__plus" aria-hidden="true">+</span>
+        </summary>
+        <div class="faq__body">
+          <p>Yes. StreamUp is a paid membership. One subscription unlocks every live channel, every PPV night and the full replay library — billed monthly or annually with a 7-day money-back guarantee.</p>
+        </div>
+      </details>
+      <details class="faq">
+        <summary>
+          <span>When does my access start?</span>
+          <span class="faq__plus" aria-hidden="true">+</span>
+        </summary>
+        <div class="faq__body">
+          <p>Instantly. As soon as your checkout completes, your pass activates and every channel becomes available across supported devices — no waiting for an email, no install queues.</p>
+        </div>
+      </details>
+      <details class="faq">
+        <summary>
+          <span>Can I watch on more than one device?</span>
+          <span class="faq__plus" aria-hidden="true">+</span>
+        </summary>
+        <div class="faq__body">
+          <p>Yes. StreamUp supports multiple simultaneous streams per household, so the whole family can watch different fixtures at the same time on TVs, phones, tablets or laptops.</p>
+        </div>
+      </details>
+      <details class="faq">
+        <summary>
+          <span>What internet speed do I need?</span>
+          <span class="faq__plus" aria-hidden="true">+</span>
+        </summary>
+        <div class="faq__body">
+          <p>5 Mbps handles HD; 25 Mbps unlocks 4K. Our adaptive bitrate automatically drops or raises quality so you never lose the stream mid-play.</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA strip -->
+<section class="cta-strip">
+  <div class="container cta-strip__inner">
+    <div>
+      <h3>The first whistle shouldn't cost extra.</h3>
+      <p>One StreamUp pass. 321+ channels. Zero blackouts.</p>
+    </div>
+    <a href="#join" class="btn btn--accent btn--lg">Start your pass →</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container footer__inner">
+    <a href="#" class="logo logo--footer" aria-label="StreamUp home">
+      <img src="https://brandgrowth.to/logo.png" alt="StreamUp" />
+      <span>StreamUp</span>
+    </a>
+    <p class="footer__copy">© 2026 StreamUp. All rights reserved.</p>
+    <ul class="footer__links" role="list">
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Support</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
